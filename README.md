@@ -24,18 +24,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Install/Eneable IIS in Windows with CGI
 - PHP Manager for IIS 
-- Rewrite Module    
+- Rewrite Module 
 - Microsoft VC++ Redistributable   
 - MySQL Data Base
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/kZOyXzQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  From our VM we are going to install/enable IIS with CGI, this is a websever by Microsoft for hosting websites, apps and
-services on windows machines.  
+   From our VM we are going to install/enable IIS with CGI. This is a websever by Microsoft for hosting websites, apps and services on windows machines. We will go to control panel, look for the icon named "programs" and click righ under it where it says "Uninstall Program" 
   
 </p>
 <br />
