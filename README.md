@@ -31,19 +31,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/kZOyXzQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7j63LaO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-   From our VM we are going to install/enable IIS with CGI. This is a websever by Microsoft for hosting websites, apps and services on windows machines. We will go to control panel, look for the icon named "programs" and click righ under it where it says "Uninstall Program" 
+   From our VM we are going to install/enable IIS with CGI. This is a websever by Microsoft for hosting websites, apps and services on windows machines. 
+   To do this we will go to the control panel, look for the icon named "programs" and click righ under it where it says "Uninstall Program" Once this is clicked, 
+   to the left of the side of our window we will click on "Turn Windows features on or off"
   
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MkG0B0f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+   We need to enable feature "Internet Information Services" by clicking on it and selecting it. Once mark, expand on this feature to get to the "Application Development features"
+and click on the feature CGI. Once with hit ok, a window will pop up comfirming and installing the features just added. 
 </p>
 <br />
 
