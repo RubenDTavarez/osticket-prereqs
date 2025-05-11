@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/MkG0B0f.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MkG0B0f.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
    We need to enable feature "Internet Information Services" by clicking on it and selecting it. Once mark, expand on this feature to get to the "Application Development features"
@@ -51,32 +51,25 @@ and click on the feature CGI. Once with hit ok, a window will pop up comfirming 
 <br />
 
 <p>
-<img src="https://i.imgur.com/6IK5UBn.png" height="60%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6IK5UBn.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  After install/Eneable IIS w/ CGI, there is a list of softwares to be install before with continue with the installation of the osTicket. The first to be install is the PHP Manager for IIS "PHPManagerForIIS_V1.5.0" and the
    second one is the Rewrite Module (rewrite_amd64_en-US.msi). 
+ 
  <p>  
-<img src="https://i.imgur.com/5Q2mnQ8.png" height="60%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5Q2mnQ8.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-We are going to create a folder in disc C: named "PDP" in this folder we will extract zip.file 
+We are going to create a folder in disc C: named "PDP" and in this folder we will extract zip.file 
 "php-7.3.8-nts-Win32-VC15-x86.zip" from the list of the requirements files. 
 
 <p>
-<img src="https://i.imgur.com/bpgutwW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/XRgOzX5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a directory name "PHP" in disk C
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/bpgutwW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
