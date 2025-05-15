@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/MkG0B0f.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C5Z2jte.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
    We need to enable feature "Internet Information Services" by clicking on it and selecting it. Once mark, expand on this feature to get to the "Application Development features"
@@ -51,11 +51,11 @@ and click on the feature CGI. Once with hit ok, a window will pop up comfirming 
 <br />
 
 <p>
-<img src="https://i.imgur.com/6IK5UBn.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9a1b67a8-1ed5-4162-8e21-1a501e66bf91" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- After install/Eneable IIS w/ CGI, there is a list of softwares to be install before with continue with the installation of the osTicket. The first to be install is the PHP Manager for IIS "PHPManagerForIIS_V1.5.0" and the
-   second one is the Rewrite Module (rewrite_amd64_en-US.msi). 
+   
+ After install/Eneable IIS w/ CGI, there is a list of softwares to be install before with continue with the installation of the osTicket. The first to be install is the PHP Manager for IIS "PHPManagerForIIS_V1.5.0" and the second one is the Rewrite Module (rewrite_amd64_en-US.msi). 
  
  <p>  
 <img src="https://i.imgur.com/5Q2mnQ8.png" height="50%" width="80%" alt="Disk Sanitization Steps"/>
