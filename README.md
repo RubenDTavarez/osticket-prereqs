@@ -68,7 +68,7 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mDcvAIO.jpeg" height="50%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   The next software to Install is the data base "MySQL". This will help us store the users and staff information; also the metadata from the tickets such as subjet, date, status, priorities, etc.  
