@@ -84,9 +84,25 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-   -Open  IIS as an administrator
-   - Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
-   -Reload IIS ( Open IIS -> Stop -> Star the server
+   - From our VM open IIS as an administrator and double click on the "PHP Manager" icon. Under the PHP Setup click the option "Registrer New PHP Version" click it and navegate to the PHP folder we created in the local disk "C:". Go to C:\PHP\php-cgi.exe and click "ok" to complete this process we will go back to our main IIS manager window, to the right side we see the "actions tap". To reset our server we will click "stop" and "Star" and this will conclude this step  
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+   The next final software to be install is the osTicket but there are some steps to take before installing it. From osTicket installation file folder click on the file name "osTicket-v1.15.8" and extract its content. The file name "upload" will be copy and paste to "c:\inetpub\wwwroot” and rename from "upload" to "osTicket". Once done, reload the IIS and "stop" and "star" the server. 
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+   From the IIS manager we will attempt to visit the localhost/osTicket here we will fing of the extensions that are not eneable. From the IIS manager we can click on sites and open the PHP manager under the osTicket folder. Go to PHP and eneable "php_imap.dll", "php_intl.dll" and "php_opcache.dll"   
 </p>
 <br />
 
@@ -98,8 +114,5 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
    Install osTicket.
 </p>
 <br />
-
-
-
 
 
