@@ -112,17 +112,29 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
 <img src="https://i.imgur.com/S9Wrmbr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-   We need to assing some permissions to the file "ost-config.php" located "C:\inetpub\wwwroot\osTicket\include\ost-config.php" To do this we right click on the file and click on properties, click  on security, highligh "system" and click on the "advanced" On the next window we will click on "Disable inheritance" and remove all inherited permission.   
+ We need to assign some permissions to the file "ost-config.php" located "C:\inetpub\wwwroot\osTicket\include\ost-config.php" To do this we right click on the file and click on properties, click  on security, highlight "system" and click on the "advanced" On the next window we will click on "Disable inheritance" and remove all inherited permission.
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/quag8BM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-   Install osTicket.
+  We can go back to the osTicket installer and see that the extension required is enable. Click continue and in the next portal we can continue with the installation on the osTicket. In this new section of the installation we are going to fill out the information required. The Helpdesk name and the email address in charge to receive the emails from the customers.  
 </p>
 <br />
+
+
+<p>
+<img src="https://i.imgur.com/u1kruzM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  From the "osTicket installation files" folder, install HeidiSQL. This is a tool to allow user to interact with databases using a graphical interface. launch "HeidiSQL" Set a connection to the database by clicking on the "new" here we will use the user and password used to the "MySQL Server" click open and this will set the connection to our database. Now we create a data base for "osTicket"
+ <br />
+
+
+
+
 
 
