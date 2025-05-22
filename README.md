@@ -112,7 +112,7 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
 <img src="https://i.imgur.com/S9Wrmbr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-   We need to assing some permissions to the file "ost-config.php" located "C:\inetpub\wwwroot\osTicket\include\ost-config.php" to do this we will right click   .
+   We need to assing some permissions to the file "ost-config.php" located "C:\inetpub\wwwroot\osTicket\include\ost-config.php" To do this we right click on the file and click on properties, click  on security, highligh "system" and click on the "advanced" On the next window we will click on "Disable inheritance" and remove all inherited permission.   
 </p>
 <br />
 
