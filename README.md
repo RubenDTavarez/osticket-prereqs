@@ -121,7 +121,7 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
 <img src="https://i.imgur.com/quag8BM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  We can go back to the osTicket installer and see that the extension required is enable. Click continue and in the next portal we can continue with the installation on the osTicket. In this new section of the installation we are going to fill out the information required. The Helpdesk name and the email address in charge to receive the emails from the customers.  
+We can go back to the browser osTicket installer and see that the extensions required are enable. Click continue and now we can begin setting the Helpdesk name and the email address in charge to receive the emails from the customers. Here we will also set the Admin username, email and password. This email has to be different than the Helpdesk. The database settings will continue after we install HeidiSQL.   
 </p>
 <br />
 
@@ -130,7 +130,10 @@ We are going to create a folder in disc C: named "PDP" and in this folder we wil
 <img src="https://i.imgur.com/u1kruzM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  From the "osTicket installation files" folder, install HeidiSQL. This is a tool to allow user to interact with databases using a graphical interface. launch "HeidiSQL" Set a connection to the database by clicking on the "new" here we will use the user and password used to the "MySQL Server" click open and this will set the connection to our database. Now we create a data base for "osTicket"
+
+ From the "osTicket installation files" folder, install HeidiSQL. This is a tool to allow user to interact with databases using a graphical interface. Fallow along the steps of installation and once completed set to  launch "HeidiSQL"  Set a new connection/session to the database by clicking on "new” and using the username and password created for "MySQL Server". Open and this will set the connection to our “MySQL” server.  Now we create a data base for "osTicket" to store all the information from osTicket. Now we can go back to the browser osTicket installer and fill the database settings; click “install now and this should complete the installation of the osTicket system, congratulations. 
+
+ 
  <br />
 
 
